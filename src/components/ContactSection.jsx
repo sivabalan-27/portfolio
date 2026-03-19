@@ -12,6 +12,10 @@ const ContactSection = () => {
   const [focused, setFocused] = useState(null);
   const [sending, setSending] = useState(false);
 
+  const serviceId = import.meta.env.VITE_EMAIL_SERVICE_ID;
+  const templateId = import.meta.env.VITE_EMAIL_TEMPLATE_ID;
+  const publicKey = import.meta.env.VITE_EMAIL_PUBLIC_KEY;
+
   const handleSubmit = (e) => {
     e.preventDefault();
    // alert("Message sent! (demo)");
@@ -23,16 +27,15 @@ const ContactSection = () => {
 
    emailjs
      .send(
-       "service_wha11fg",       // Service ID
-       "template_msyghzj",      // YOUR_TEMPLATE_ID
+      serviceId,       // Service ID
+      templateId,      // YOUR_TEMPLATE_ID
        {
          from_name: form.name,
          from_email: form.email,
          subject: form.subject,
          message: form.message,
        },
-      
-       "aD8O7e_vC_Bx9wXlq"        // OUR_PUBLIC_KEY 
+      publicKey       // OUR_PUBLIC_KEY 
      )
      .then(
        () => {
