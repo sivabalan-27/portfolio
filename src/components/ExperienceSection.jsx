@@ -15,7 +15,7 @@ const timeline = [
   {
     icon: GraduationCap,
     type: "Education",
-    title: "B.Tech — Computer Science",
+    title: "B.Tech — Artificial Intelligence and Data Science",
     org: "Dhanalakshmi Srinivasan University",
     period: "2022 — 2026",
     description: "Pursuing a Bachelor's degree in  Artificial Intelligence and Data Science with focus on web technologies, data structures, and software engineering.",
