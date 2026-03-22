@@ -1,7 +1,7 @@
 import { motion, useInView } from "framer-motion";
 import { useRef, useState } from "react";
 import emailjs from "@emailjs/browser"; 
-import { Github, Linkedin, Mail, Send, ArrowRight, Twitter, MapPin, Phone, Clock } from "lucide-react";
+import { Github, Linkedin, Mail, Send, ArrowRight, MapPin, Phone, Clock } from "lucide-react";
 
 const ContactSection = () => {
   const ref = useRef(null);
@@ -18,8 +18,6 @@ const ContactSection = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-   // alert("Message sent! (demo)");
-   // setForm({ name: "", email: "", subject: "", message: "" });
 
    if (!form.name || !form.email || !form.message) return;
 
@@ -27,15 +25,15 @@ const ContactSection = () => {
 
    emailjs
      .send(
-      serviceId,       // Service ID
-      templateId,      // YOUR_TEMPLATE_ID
+      serviceId,       
+      templateId,      
        {
          from_name: form.name,
          from_email: form.email,
          subject: form.subject,
          message: form.message,
        },
-      publicKey       // OUR_PUBLIC_KEY 
+      publicKey       
      )
      .then(
        () => {

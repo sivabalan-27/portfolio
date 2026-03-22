@@ -33,7 +33,7 @@ const Footer = () => (
           viewport={{ once: true }}
           className="text-xs text-muted-foreground/60 font-body"
         >
-          © {new Date().getFullYear()} Your Name. All rights reserved.
+          © {new Date().getFullYear()} SIVABALAN. All rights reserved.
         </motion.span>
         <motion.span
           initial={{ opacity: 0 }}
