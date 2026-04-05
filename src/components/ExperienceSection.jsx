@@ -26,7 +26,7 @@ const timeline = [
     type: "Open Source",
     title: "Open Source Contributor",
     org: "GitHub",
-    period: "2023 — Present",
+    period: "2024 — Present",
     description: "Actively contributing to open source projects, collaborating with developers worldwide, and building tools for the community.",
     highlights: ["Active Contributor", "Community Builder"],
   },
