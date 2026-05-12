@@ -110,7 +110,7 @@ const HeroSection = () => {
             <ExternalLink size={15} className="group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform duration-300" />
           </motion.a>
           <motion.a
-            href="sivabalan-resume.pdf"
+            href="SIVABALAN_resume.pdf"
             whileHover={{ scale: 1.03 }}
             whileTap={{ scale: 0.97 }}
             className="px-8 py-3.5 rounded-2xl glass gradient-border font-semibold text-foreground transition-all duration-300 flex items-center gap-2.5 text-sm hover:glow-primary"
