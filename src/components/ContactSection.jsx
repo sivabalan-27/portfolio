@@ -172,7 +172,7 @@ const ContactSection = () => {
             </div>
 
             {[
-              { icon: Mail, label: "siva270410@gmail.com", subtitle: "Email me", href: "mailto:siva270410@gmail.com" },
+              { icon: Mail,  label: "sivabalan2741@gmail.com", subtitle: "Email me", href: "mailto:sivabalan2741@gmail.com" },
               { icon: Github, label: "github.com/sivabalan", subtitle: "View my code", href: "https://github.com/sivabalan-27" },
               { icon: Linkedin, label: "linkedin.com/in/sivabalan", subtitle: "Let's connect", href: "https://www.linkedin.com/in/sivabalan27" },
             ].map((link, i) => (
