@@ -47,8 +47,8 @@ const projects = [
     learned: "Gained experience with complex React state patterns, optimistic updates, chart libraries, and building accessible drag interactions.",
     features: ["Drag & Drop Boards", "Priority Labels", "Due Date Tracking", "Analytics Charts", "Responsive Layout", "Dark Mode"],
     tech: ["Next.js", "TypeScript", "MongoDB", "Tailwind", "Framer Motion", "Chart.js"],
-    github: "#",
-    live: "#",
+    github: "https://github.com/sivabalan-27/taskflow",
+    live: "https://taskflow-amber-two.vercel.app/",
     number: "04",
   },
 ];
