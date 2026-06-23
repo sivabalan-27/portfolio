@@ -51,6 +51,18 @@ const projects = [
     live: "https://taskflow-amber-two.vercel.app/",
     number: "04",
   },
+    {
+    title: "Crime Video Analysis & Summarization Dashboard",
+    subtitle: "AI-powered surveillance video analysis system (college project)",
+    description: "Developed a web-based dashboard that analyzes surveillance videos and generates natural-language summaries of detected activities. Built as part of my college coursework, the system uses computer vision techniques to process video footage, integrates the Llama 3 model via Ollama to generate concise incident summaries and insights, and sends alerts when suspicious activity is detected.",
+    challenge: "Extracting meaningful events from surveillance footage, processing video data efficiently, integrating computer vision with an LLM workflow, generating accurate summaries from detected activities, and triggering timely alerts for flagged incidents.",
+    learned: "Gained hands-on experience in computer vision, video processing, Flask backend development, prompt engineering, real-time alerting systems, and integrating local large language models into real-world AI applications.",
+    features: [ "Video Upload & Processing", "Activity Detection","AI-Generated Incident Summaries","Llama 3 Integration via Ollama","Real-Time Alert Notifications","Interactive Analysis Dashboard","Surveillance Event Insights"],
+    tech: ["Python","Flask","OpenCV", "Ollama","Llama 3","HTML","CSS","JavaScript"],
+    github: "#",
+    live: "#",
+    number: "05"
+  }
 ];
 
 const ProjectsSection = () => {
@@ -87,7 +99,7 @@ const ProjectsSection = () => {
             >
               <div className="p-8 sm:p-10">
                 <div className="flex flex-col lg:flex-row gap-8">
-                  <span className="text-6xl sm:text-7xl lg:text-8xl font-black text-muted/40 leading-none select-none shrink-0 hidden lg:block">
+                  <span className="text-6xl sm:text-7xl lg:text-8xl font-black text-muted/40 leading-none select-none shrink-0 hidden lg:block group-hover:bg-gradient-to-br group-hover:from-primary group-hover:to-accent group-hover:bg-clip-text group-hover:text-transparent transition-all duration-300"">
                     {project.number}
                   </span>
 
