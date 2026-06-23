@@ -99,7 +99,7 @@ const ProjectsSection = () => {
             >
               <div className="p-8 sm:p-10">
                 <div className="flex flex-col lg:flex-row gap-8">
-                  <span className="text-6xl sm:text-7xl lg:text-8xl font-black text-muted/40 leading-none select-none shrink-0 hidden lg:block group-hover:bg-gradient-to-br group-hover:from-primary group-hover:to-accent group-hover:bg-clip-text group-hover:text-transparent transition-all duration-300"">
+                  <span className="text-6xl sm:text-7xl lg:text-8xl font-black text-muted/40 leading-none select-none shrink-0 hidden lg:block group-hover:bg-gradient-to-br group-hover:from-primary group-hover:to-accent group-hover:bg-clip-text group-hover:text-transparent transition-all duration-300">
                     {project.number}
                   </span>
 
